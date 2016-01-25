@@ -14,6 +14,7 @@ namespace MiWebApi
     {
         protected void Application_Start()
         {
+            AppDomain.CurrentDomain.SetData("DataDirectory", @"C:\Proyectos\GitHub\Personal\Prueba\MiWebApi\Datos\App_Data");
             System.Data.Entity.Database.SetInitializer(
                 new MiDbContextInitializer());
             AreaRegistration.RegisterAllAreas();

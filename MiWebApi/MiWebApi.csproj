@@ -130,7 +130,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
@@ -169,13 +168,6 @@
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Controllers\ProductosController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
-    <Compile Include="Datos\Categoria.cs" />
-    <Compile Include="Datos\IRepositorioBase.cs" />
-    <Compile Include="Datos\MiDbContext.cs" />
-    <Compile Include="Datos\MiDbContextInitializer.cs" />
-    <Compile Include="Datos\Producto.cs" />
-    <Compile Include="Datos\Repositorio.cs" />
-    <Compile Include="Datos\RepositorioProductos.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -232,7 +224,12 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\Datos\Datos.csproj">
+      <Project>{8642d741-faf8-4243-88ac-1dc05240b0f7}</Project>
+      <Name>Datos</Name>
+    </ProjectReference>
+  </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
