@@ -53,3 +53,5 @@ C:\Proyectos\GitHub\Personal\Prueba\MiWebApi\MiWebApi\obj\Debug\MiWebApi.pdb
 C:\Proyectos\GitHub\Personal\Prueba\MiWebApi\MiWebApi\obj\Debug\MiWebApi.csprojResolveAssemblyReference.cache
 C:\Proyectos\GitHub\Personal\Prueba\MiWebApi\MiWebApi\bin\Datos.dll
 C:\Proyectos\GitHub\Personal\Prueba\MiWebApi\MiWebApi\bin\Datos.pdb
+C:\Proyectos\GitHub\Personal\Prueba\MiWebApi\MiWebApi\bin\Infraestructura.dll
+C:\Proyectos\GitHub\Personal\Prueba\MiWebApi\MiWebApi\bin\Infraestructura.pdb
